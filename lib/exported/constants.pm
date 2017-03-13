@@ -3,6 +3,8 @@ package exported::constants;
 use strict;
 use warnings;
 
+use vars '$VERSION'; $VERSION = '1.0';
+
 use Carp qw/ carp /;
 
 sub import {
